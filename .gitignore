@@ -1,0 +1,45 @@
+# Python & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.spec
+
+# Build & Dist Artifacts
+build/
+dist/
+build_admin/
+dist_release/
+build_release/
+Release_Commercial/
+scratch/
+scratch_repo/
+
+# Backup & Proprietary Binary Files (Protected from DMCA/accidental commits)
+*.bak
+*.stock_backup
+*.dll
+*.zip
+
+# Admin & Internal Tooling
+Admin_Keygen*
+generate_master_commercial_pack.py
+update_commercial_assets.py
+FL_Studio_Thai_Setup_Hardened.py
+full_translation_catalog.md
+
+# Environment & Editor
+.env
+.venv
+env/
+venv/
+.vscode/
+.idea/
+
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Temporary
+*.tmp
+*.log
